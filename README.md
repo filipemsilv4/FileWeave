@@ -4,6 +4,8 @@
 
 FileWeave is a desktop application designed to simplify the process of sharing your project's codebase with Large Language Models (LLMs). Instead of manually copying and pasting code from multiple files, FileWeave allows you to selectively combine them into a single, well-structured output, making it easier to provide context to LLMs for Q\&A or initial project understanding. It's built with Python using the `tkinter` library for the GUI and integrates with your project's `.gitignore` file.
 
+<img width="1391" alt="Screenshot 2024-12-27 at 23 48 56" src="https://github.com/user-attachments/assets/ad26dd50-29b0-45d7-a0ff-ae60dfd7a622" />
+
 ## Motivation
 
 When interacting with LLMs about your codebase, providing them with a broad, initial view of your project can be highly beneficial. This allows the LLM to grasp the overall structure, identify key components, and answer questions more effectively without you having to constantly guide it through individual files.
