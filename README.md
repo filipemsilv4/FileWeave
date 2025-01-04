@@ -9,7 +9,7 @@ Ever wished you could seamlessly share your entire codebase with an LLM? FileWea
 
 ## Why FileWeave?
 
-Modern LLMs like **Gemini** excel at understanding complex codebases - when they can see the big picture. But preparing that overview has traditionally meant tedious copy-pasting from dozens of files. FileWeave transforms this process into a simple point-and-click operation.
+Modern LLMs like **Gemini**, with its massive context window of over 1M tokens, excel at understanding complex codebases - when they can see the big picture. But preparing that overview has traditionally meant tedious copy-pasting from dozens of files. FileWeave transforms this process into a simple point-and-click operation.
 
 With FileWeave, you can:
 - Navigate your project structure with ease
