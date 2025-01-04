@@ -1,9 +1,9 @@
-# FileWeave: Your Bridge Between Code and LLMs
+# FileWeave: Your Bridge Between Codebase and LLMs
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/filipemsilv4/fileweave/blob/master/README.md)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/filipemsilv4/fileweave/blob/master/README.pt-br.md)
 
-Ever wished you could seamlessly share your entire codebase with an LLM? FileWeave makes it possible. This desktop application transforms the tedious process of copying multiple code files into a smooth, single-click operation. Built with Python and tkinter, FileWeave helps you create perfectly formatted code snapshots that LLMs can easily understand and analyze.
+Ever wished you could seamlessly share your entire codebase with an LLM? FileWeave makes it possible. This desktop application transforms the tedious process of copying multiple files from your codebase into a smooth operation. Built with Python and tkinter, FileWeave helps you create perfectly formatted code snapshots that LLMs can easily understand and analyze.
 
 <img width="1391" alt="Screenshot 2024-12-27 at 23 48 56" src="https://github.com/user-attachments/assets/ad26dd50-29b0-45d7-a0ff-ae60dfd7a622" />
 
