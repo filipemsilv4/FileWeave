@@ -1,79 +1,72 @@
-# FileWeave: Simplifying Codebase Sharing for LLM Interaction
+# FileWeave: Your Bridge Between Code and LLMs
 
-## Overview
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/filipemsilv4/fileweave/blob/master/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/filipemsilv4/fileweave/blob/master/README.pt-br.md)
 
-FileWeave is a desktop application designed to simplify the process of sharing your project's codebase with Large Language Models (LLMs). Instead of manually copying and pasting code from multiple files, FileWeave allows you to selectively combine them into a single, well-structured output, making it easier to provide context to LLMs for Q\&A or initial project understanding. It's built with Python using the `tkinter` library for the GUI and integrates with your project's `.gitignore` file.
+Ever wished you could seamlessly share your entire codebase with an LLM? FileWeave makes it possible. This desktop application transforms the tedious process of copying multiple code files into a smooth, single-click operation. Built with Python and tkinter, FileWeave helps you create perfectly formatted code snapshots that LLMs can easily understand and analyze.
 
 <img width="1391" alt="Screenshot 2024-12-27 at 23 48 56" src="https://github.com/user-attachments/assets/ad26dd50-29b0-45d7-a0ff-ae60dfd7a622" />
 
-## Motivation
+## Why FileWeave?
 
-When interacting with LLMs about your codebase, providing them with a broad, initial view of your project can be highly beneficial. This allows the LLM to grasp the overall structure, identify key components, and answer questions more effectively without you having to constantly guide it through individual files.
+Modern LLMs like **Gemini** excel at understanding complex codebases - when they can see the big picture. But preparing that overview has traditionally meant tedious copy-pasting from dozens of files. FileWeave transforms this process into a simple point-and-click operation.
 
-However, manually preparing a comprehensive snapshot of your project for an LLM can be time-consuming. FileWeave aims to streamline this process by enabling you to:
+With FileWeave, you can:
+- Navigate your project structure with ease
+- Cherry-pick the files you want to include
+- Automatically filter out irrelevant files using `.gitignore` rules
+- Generate a perfectly formatted output ready for your LLM
+- Copy everything to your clipboard with a single click
 
-1. **Navigate** your project's directory structure.
-2. **Select** relevant files for inclusion.
-3. **Filter** out irrelevant files using `.gitignore` or by hiding/showing hidden files.
-4. **Generate** a single, concatenated output that you can directly paste into an LLM's input.
-5. **Copy** the output to your clipboard.
+The result? You spend less time preparing code for review and more time getting valuable insights from your LLM.
 
-By automating these steps, FileWeave reduces the initial effort required to onboard an LLM to your project, allowing for a more efficient and productive interaction.
+## Key Features
 
-## Features
+FileWeave combines power with simplicity:
 
-* **Intuitive GUI:** A simple interface built with `tkinter`.
-* **Directory Navigation:** Easily browse your project's files and folders.
-* **File Selection:** Select files to include using checkboxes.
-* **.gitignore Integration:** Respects your project's `.gitignore` to exclude unwanted files.
-* **Show/Hide Hidden Files:** Toggle visibility of hidden files (files starting with a dot).
-* **Formatted Output:** Generates output with:
-  * Clear file separators using Markdown code blocks (e.g., ``` # project_name/path/to/file.py ... ```).
-  * Language identifier within the code blocks for better LLM understanding.
-* **Clipboard Integration:** Copy the output directly to your clipboard.
-* **Cross-Platform:** Should work on macOS, Windows, and Linux.
-* **Convenient Shortcuts:** Use ⌘O (Ctrl+O on Windows/Linux) to open a directory and ⌘C (Ctrl+C on Windows/Linux) to copy the output.
+- **Smart Interface**: A clean, intuitive GUI built with tkinter
+- **Intelligent Filtering**: Seamless integration with your `.gitignore` rules
+- **Hidden File Control**: Toggle visibility of dot files with a single click
+- **LLM-Optimized Output**: Generates markdown code blocks with language identifiers and clear file separators
+- **Cross-Platform Support**: Works on macOS, Windows, and Linux
+- **Keyboard Shortcuts**: Quick access with ⌘O/Ctrl+O for directory selection and ⌘C/Ctrl+C for copying
 
-## Installation
+## Getting Started
 
-This project uses Poetry for dependency management. To get started:
+FileWeave uses Poetry for dependency management. Here's how to get up and running:
 
-1. **Clone the repository:**
+1. **Install Poetry** (if you haven't already):
+   Visit the [Poetry documentation](https://python-poetry.org/docs/#installation) for detailed instructions.
 
-    ```bash
-    git clone https://github.com/filipemsilv4/fileweave.git
-    cd fileweave
-    ```
+2. **Set up FileWeave**:
+   ```bash
+   git clone https://github.com/filipemsilv4/fileweave.git
+   cd fileweave
+   poetry install
+   ```
 
-2. **Install dependencies using Poetry:**
+3. **Launch the application**:
+   ```bash
+   poetry run python fileweave/main.py
+   ```
 
-    ```bash
-    poetry install
-    ```
+## Using FileWeave
 
-3. **Run the application:**
+1. Launch FileWeave
+2. Select your project's root directory
+3. Adjust visibility settings if needed
+4. Choose the files you want to include
+5. Generate your combined output
+6. Copy to clipboard and share with your LLM
 
-    ```bash
-    poetry run python fileweave/main.py
-    ```
+## Join the Community
 
-## Usage
-
-1. Launch the application.
-2. Click "Select Directory" to choose your project's root directory.
-3. Select the files you want to include.
-4. Optionally, toggle "Respect .gitignore" or "Show hidden files".
-5. Click "Generate Output" to create the combined code output.
-6. Click "Copy to Clipboard" to copy the output for use with an LLM.
-
-## Contributing
-
-Contributions are welcome! For suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+Your contributions can make FileWeave even better! Whether you've found a bug, have a feature request, or want to contribute code, we welcome your input through issues and pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+FileWeave is available under the MIT License. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
-* Uses the `pathspec` library for parsing `.gitignore` files.
+Special thanks to the `pathspec` library for powering our `.gitignore` parsing capabilities.
