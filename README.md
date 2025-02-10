@@ -47,7 +47,7 @@ FileWeave uses Poetry for dependency management. Here's how to get up and runnin
 
 3. **Launch the application**:
    ```bash
-   poetry run python fileweave/main.py
+   poetry run python fileweave/app.py
    ```
 
 ## Using FileWeave
